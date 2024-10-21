@@ -3,10 +3,10 @@ function Table({ data }) {
     return <p className="text-center text-2xl font-semibold">Form Data Table</p>;
 
   return (
-    <div className="w-full mt-8 flex  justify-center overflow-x-auto">
+    <div className="w-full mt-8  overflow-x-auto">
       <table className="table-auto  text-left border-collapse border border-gray-300">
         <thead>
-          <tr className="bg-blue-400">
+          <tr className="bg-blue-200">
             <th className="border border-gray-300 px-4 py-2">S.No</th>
             <th className="border border-gray-300 px-4 py-2">Full Name</th>
             <th className="border border-gray-300 px-4 py-2">Email</th>
